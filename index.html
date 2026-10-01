@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ΔΙΕΚΠΑΙΡΕΩΣΕΙΣ ΜΕΞΗΣ</title>
+
+    <style>
+        /* =========================
+           General
+           ========================= */
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #222;
+
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        /* =========================
+           Personal Card
+           ========================= */
+
+        .card {
+            background-color: white;
+
+            width: 90%;
+            max-width: 500px;
+
+            padding: 50px 40px;
+
+            border-radius: 12px;
+
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+            text-align: center;
+        }
+
+
+        /* =========================
+           Name & Profession
+           ========================= */
+
+        .name {
+            font-size: 32px;
+            font-weight: 600;
+
+            margin-bottom: 10px;
+        }
+
+        .profession {
+            font-size: 18px;
+            color: #777;
+
+            margin-bottom: 35px;
+        }
+
+
+        /* =========================
+           Contact Information
+           ========================= */
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+
+            gap: 15px;
+        }
+
+        .contact a {
+            color: #333;
+            text-decoration: none;
+
+            font-size: 16px;
+
+            padding: 12px;
+
+            border-radius: 6px;
+
+            transition: background-color 0.2s;
+        }
+
+        .contact a:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <h1 class="name">
+            ΕΛΕΥΘΕΡΙΟΣ ΜΕΞΗΣ
+        </h1>
+
+        <p class="profession">
+            ΔΙΕΚΠΑΙΡΕΩΤΗΣ
+        </p>
+
+        <div class="contact">
+
+            <a href="tel:+306900000000">
+                +30 690 000 0000
+            </a>
+
+            <a href="mailto:your@email.com">
+                your@email.com
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
